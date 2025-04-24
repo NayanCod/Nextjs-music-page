@@ -39,8 +39,7 @@ const content = [
  
  const InformationSection = () => {
    return (
-     <div className="w-full bg-transparent">
-        <h2 className="text-3xl font-bold text-center my-8 z-10">Why Choose Us ?</h2>
+     <div>
        <StickyScroll content={content} />
      </div>
    )

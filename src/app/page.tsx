@@ -1,7 +1,10 @@
 import FeaturedSecton from "@/components/FeaturedSecton";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import InformationSection from "@/components/InformationSection";
+import Instructor from "@/components/Instructor";
 import Testimonials from "@/components/Testimonials";
+import WebinarSection from "@/components/WebinarSection";
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
       <FeaturedSecton/>
       <InformationSection/>
       <Testimonials/>
+      <WebinarSection />
+      <Instructor />
+      <Footer/>
     </main>
   );
 }
