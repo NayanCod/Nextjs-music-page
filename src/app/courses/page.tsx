@@ -10,7 +10,7 @@ import Image from "next/image";
 const Courses = () => {
   return (
     <div className="min-h-screen bg-black px-8 py-12 pt-36">
-      <h1 className="text-7xl text-center font-bold">
+      <h1 className="text-4xl md:text-7xl text-center font-bold">
         All Courses ({courseData.courses.length})
       </h1>
       <div className="flex flex-wrap justify-center mt-20 gap-12">
