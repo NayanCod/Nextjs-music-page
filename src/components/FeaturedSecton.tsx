@@ -5,7 +5,6 @@ import courseData from "../data/music_courses.json";
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Image from "next/image";
-import { Button } from "./ui/moving-border";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 interface Course {
