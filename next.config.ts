@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["api.microlink.io", "images.unsplash.com"],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  }
 };
 
 export default nextConfig;

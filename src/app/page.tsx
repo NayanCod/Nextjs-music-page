@@ -1,5 +1,4 @@
 import FeaturedSecton from "@/components/FeaturedSecton";
-import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import InformationSection from "@/components/InformationSection";
 import Instructor from "@/components/Instructor";
@@ -15,7 +14,6 @@ export default function Home() {
       <Testimonials/>
       <WebinarSection />
       <Instructor />
-      {/* <Footer/> */}
     </main>
   );
 }
